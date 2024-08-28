@@ -1,0 +1,680 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+
+
+}
+
+nav {
+    width: 80%;
+    margin: auto;
+}
+
+.tepa {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #575758;
+}
+
+.tepa>p {
+    font-family: sans-serif;
+    color: #575758;
+}
+
+.aykon {
+    gap: 20px;
+    display: flex;
+}
+
+.pas {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ong {
+    width: 280px;
+    height: 50px;
+    background-image: url("https://avada.website/retail/wp-content/uploads/sites/113/2021/04/retail-logo-svg.svg");
+    background-size: cover;
+
+}
+
+.orta>a {
+    text-decoration: none;
+    font-size: 21px;
+    font-family: sans-serif;
+    color: #000;
+    gap: 30px;
+}
+
+.orta>a:hover {
+    border-bottom: 1px solid black;
+}
+
+.orta {
+    display: flex;
+    gap: 40px;
+}
+
+.chap>i {
+    font-size: 22px;
+}
+
+/* ----------------------------sec1----------------------------------- */
+
+
+
+
+.section1 {
+    width: 100%;
+
+}
+
+.kotta {
+    display: flex;
+}
+
+.ong1 {
+    overflow: hidden;
+
+    width: 50%;
+    height: 680px;
+    background-image: url("https://avada.website/retail/wp-content/uploads/sites/113/2021/02/hero-3.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: all ease 0.5s;
+    overflow: hidden;
+}
+
+.ong1:hover {
+    transform: scale(1.1);
+}
+
+.chap1 {
+    width: 50%;
+    height: 680px;
+    background-image: url("https://avada.website/retail/wp-content/uploads/sites/113/2021/02/hero-2.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: all ease 0.5s;
+}
+
+.chap1:hover {
+    transform: scale(1.1);
+}
+
+.ong1>p {
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+}
+
+.ong1>span {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+#sp {
+    margin-top: 35px;
+}
+
+.ong1>a {
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+
+.chap1>p {
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+}
+
+.chap1>span {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+#sp {
+    margin-top: 35px;
+}
+
+.chap1>a {
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+
+.kchik {
+    width: 100%;
+    height: 250px;
+    background-image: url("https://avada.website/retail/wp-content/uploads/sites/113/2021/02/pattern-5.png");
+    background-color: rgba(10, 10, 75, 0.937);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    position: relative;
+}
+
+
+
+.pravo>input[type="text"] {
+    width: 700px;
+    height: 70px;
+    font-size: 20px;
+    padding-left: 60px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px solid rgb(197, 188, 188);
+}
+
+.pravo>input[type="text"]:hover {
+    border-bottom: 1px solid rgb(230, 179, 25);
+}
+
+
+.pravo>input[type="text"]::placeholder {
+    color: white;
+}
+
+.pravo>i {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+
+
+.levo {
+    display: flex;
+    gap: 10px;
+
+}
+
+.levo>i {
+    font-size: 20px;
+    color: white;
+    transition: all ease 0.5s;
+}
+
+.levo>p {
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    margin-right: 40px;
+    transition: all ease 0.5s;
+}
+
+.levo>i:hover {
+    color: rgb(230, 179, 25);
+}
+
+.levo>p:hover {
+    color: rgb(230, 179, 25);
+}
+
+
+
+/* ----------------------------sec2----------------------------------- */
+
+.top {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.p {
+    background-image: url("https://avada.website/retail/wp-content/uploads/sites/113/2021/02/icon-1.svg");
+    background-size: cover;
+    width: 100px;
+    height: 70px;
+}
+
+#vr {
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 45px;
+    color: rgb(8, 8, 80);
+}
+
+#vr>a {
+    font-size: 36px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #170d37;
+}
+
+.top>span {
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 15px;
+    color: rgb(8, 8, 80);
+}
+
+.top>a {
+    font-size: 20px;
+    color: rgb(8, 8, 80);
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+/* --------------------------sec3---------------------------------------- */
+
+
+.section3 {
+    width: 85%;
+    margin: auto;
+}
+
+.bow {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding-top: 50px;
+}
+
+.bow>p {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.rasmla {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 50px;
+}
+
+.rasm1 {
+    width: 400px;
+    transition: all ease 0.5s;
+    height: 448px;
+    background-image: url("https://avada.website/retail/wp-content/uploads/sites/113/2021/02/product-16-400x448.jpg");
+}
+
+.rasm1:hover {
+    filter: brightness(0.8) sepia(0.2) hue-rotate(150deg);
+}
+
+
+.rasm1>p {
+    margin-top: 480px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: sans-serif;
+    color: #0d244c;
+}
+
+.rasm1>span {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #0d244c;
+}
+
+
+
+.rasm2 {
+    width: 400px;
+    height: 448px;
+    background-image: url("https://avada.website/retail/wp-content/uploads/sites/113/2021/02/product-1-400x448.jpg");
+}
+
+.rasm2>p {
+    margin-top: 480px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: sans-serif;
+    color: #0d244c;
+}
+
+.rasm2>span {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #0d244c;
+}
+
+.rasm3 {
+    width: 400px;
+    height: 448px;
+    background-image: url("https://avada.website/retail/wp-content/uploads/sites/113/2021/02/product-2-400x448.jpg");
+}
+
+.rasm3>p {
+    margin-top: 480px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: sans-serif;
+    color: #0d244c;
+}
+
+.rasm3>span {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #0d244c;
+}
+
+.rasm4 {
+    width: 400px;
+    height: 448px;
+    background-image: url("https://avada.website/retail/wp-content/uploads/sites/113/2021/03/product-20-400x448.jpg");
+}
+
+.rasm4>p {
+    margin-top: 480px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: sans-serif;
+    color: #0d244c;
+}
+
+.rasm4>span {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #0d244c;
+}
+
+.rasm5 {
+    margin-top: 140px;
+    width: 400px;
+    height: 448px;
+    background-image: url("https://avada.website/retail/wp-content/uploads/sites/113/2021/02/product-4-400x448.jpg");
+}
+
+.rasm5>p {
+    margin-top: 480px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: sans-serif;
+    color: #0d244c;
+}
+
+.rasm5>span {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #0d244c;
+}
+
+.rasm6 {
+    width: 400px;
+    height: 448px;
+    background-image: url("https://avada.website/retail/wp-content/uploads/sites/113/2021/02/product-5-400x448.jpg");
+    margin-top: 140px;
+
+}
+
+.rasm6>p {
+    margin-top: 480px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: sans-serif;
+    color: #0d244c;
+}
+
+.rasm6>span {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #0d244c;
+}
+
+.rasm7 {
+    width: 400px;
+    height: 448px;
+    background-image: url("https://avada.website/retail/wp-content/uploads/sites/113/2021/02/product-11-400x448.jpg");
+    margin-top: 140px;
+
+}
+
+.rasm7>p {
+    margin-top: 480px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: sans-serif;
+    color: #0d244c;
+}
+
+.rasm7>span {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #0d244c;
+}
+
+.rasm8 {
+    width: 400px;
+    height: 448px;
+    background-image: url("https://avada.website/retail/wp-content/uploads/sites/113/2021/02/product-6-400x448.jpg");
+    margin-top: 140px;
+
+}
+
+.rasm8>p {
+    margin-top: 480px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: sans-serif;
+    color: #0d244c;
+}
+
+.rasm8>span {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #0d244c;
+}
+
+.rasm1>span>button {
+    width: 100px;
+    height: 30px;
+    background-color: #8aada8;
+    color: white;
+    border: none;
+    font-family: sans-serif;
+    margin-left: 15px;
+}
+
+.rasm3>span>button {
+    width: 100px;
+    height: 30px;
+    background-color: #8aada8;
+    color: white;
+    border: none;
+    font-family: sans-serif;
+    margin-left: 15px;
+}
+
+.rasm6>span>button {
+    width: 100px;
+    height: 30px;
+    background-color: #8aada8;
+    color: white;
+    border: none;
+    font-family: sans-serif;
+    margin-left: 15px;
+}
+
+
+
+
+/* ------------------------------sec4-------------------------- */
+
+
+.section4 {
+    width: 100%;
+    height: 700px;
+    background-color: #f8f5ef;
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+    justify-content: center;
+    gap: 60px;
+}
+
+.box1 {
+    width: 370px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.box1>p {
+    font-size: 45px;
+    font-weight: 700;
+    color: #0d244c;
+}
+
+.box1>span {
+    margin-top: 35px;
+    font-size: 20px;
+    color: #0d244c;
+    font-family: sans-serif;
+}
+
+.box1>a {
+    margin-top: 50px;
+    font-size: 20px;
+    color: #0d244c;
+    font-family: sans-serif;
+}
+
+
+.box2 {
+    background-image: url("https://avada.website/retail/wp-content/uploads/sites/113/2021/02/cat-19-200x200.jpg");
+    width: 370px;
+    height: 370px;
+    background-size: cover;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.box2>p {
+    margin-top: 400px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.box2>span {
+    margin-top: 400px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.box3 {
+    background-image: url("https://avada.website/retail/wp-content/uploads/sites/113/2021/02/cat-18-200x200.jpg");
+    width: 370px;
+    height: 370px;
+    background-size: cover;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.box3>p {
+    margin-top: 400px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.box3>span {
+    margin-top: 400px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.box4 {
+    background-image: url("https://avada.website/retail/wp-content/uploads/sites/113/2021/02/cat-14-200x200.jpg");
+    width: 370px;
+    height: 370px;
+    background-size: cover;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.box4>p {
+    margin-top: 400px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.box4>span {
+    margin-top: 400px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+
+/* --------------------------------sec5---------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
